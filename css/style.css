@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    margin: 0;
+}
+
+html { 
+    background: url('../image/szczuk.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button {
+    width: 50%;
+    height: 10vh;
+    border: 0;
+}
+
+#true{
+    background-color: lime;
+}
+
+#false{
+    background-color: red;
+}
+
+.buttons {
+    padding-top: 70vh;
+    display: flex;
+}
+
+.letterIcon {
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 3vh;
+}

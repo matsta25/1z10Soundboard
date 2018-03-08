@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1 z 10 Soundboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <audio id="trueSound">
+        <source src="sounds/true.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="falseSound">
+        <source src="sounds/false.mp3" type="audio/mpeg">
+    </audio>
+</head>
+<body>
+    <div class="buttons">
+        <button id="true" type="button" onclick="playTrue()">TRUE<span class="letterIcon">T</span></button>
+        <button id="false" type="button" onclick="playFalse()">FALSE<span class="letterIcon">F</span></button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
